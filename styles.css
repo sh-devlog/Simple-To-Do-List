@@ -1,0 +1,51 @@
+#main_wrap{ width:750px;margin:0 auto;}
+
+body{
+	background-color:#FFFFFF;
+	padding: 15px;
+	font-family:"맑은 고딕";
+}
+
+        #todo-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .todo-item {
+            flex: 1;
+        }
+
+
+#main_title{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 60px;
+    margin: 50px auto;
+  }
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+
+#footer{
+background-color:#EEEEEE;
+color: #0073c2;
+width:100%;
+height:60px;
+line-height: 60px;
+text-align: center;
+margin: 50px 0px 15px 0px;
+}
