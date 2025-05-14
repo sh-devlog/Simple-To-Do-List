@@ -7,8 +7,8 @@
 body{
 	background-color:#FFFFFF;
 	padding: 15px;
-        font-size: 45px;
-	font-family: "Inter", "맑은 고딕";
+        font-size: 50px;
+	font-family: "맑은 고딕";
 }
 
         #todo-list {
@@ -25,9 +25,9 @@ body{
  	}
 
 	#todo-list input[type="checkbox"] {
-  	margin-right: 10px;
+	transform : scale(2.0);
+  	margin-right: 25px;
 	}
-
 
         button {
             background-color: black;
@@ -37,21 +37,27 @@ body{
             padding: 0;
             margin-left: 10px;
 	    white-space: nowrap; /* 텍스트 한 줄 유지 */
-	    width: 90px;
-  	    height: 60px;
-   	    min-width: 90px;
+	    width: 110px;
+  	    height: 80px;
+   	    min-width: 110px;
   	    text-align: center;
-	    font-size: 30px;
+	    font-size: 50px;
         }
 
 .todo-text {
+  display: block;
   width: 633px;
-  flex-grow: 1;
+  margin-right: 20px;
+  flex-grow: 0;
+word-break: break-word;
+overflow-wrap: break-word;
+white-space: normal;
+
 }
 
 #todo-input{	
   width: 450px;
-  font-size: 45px;
+  font-size: 50px;
 }
 
 
@@ -60,9 +66,14 @@ body{
     width: 100%;
     text-align: center;
     font-weight: lighter;
-    font-size: 80px;
+    font-size: 85px;
     margin: 0px 0px 44px 0px;
   }
+
+
+
+
+
 
 /* 화면이 1024px 이상일 때 (데스크탑) */
 @media (min-width: 1024px) {
@@ -77,6 +88,15 @@ body{
 #todo-input{
   font-size: 16px;
 }
+
+.todo-text {
+  	margin-right: 0;
+}
+
+	#todo-list input[type="checkbox"] {
+  	margin-right: 10px;
+	transform : scale(1.0);
+	}
 
  button {
 	    width: 60px;
