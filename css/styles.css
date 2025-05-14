@@ -11,16 +11,39 @@ body{
             padding: 0;
         }
 
-        li {
-            margin: 5px 0;
-            display: flex;
-            align-items: center;
+        #todo-list li {
+	  padding: 10px;
+	  border-bottom: 1px solid #ccc; /* 구분 선 */
+  	  display: flex;
+  	  align-items: center;
+	  justify-content: space-between;
+ 	}
+
+	#todo-list input[type="checkbox"] {
+  	margin-right: 10px;
+	}
+
+
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            margin-left: 10px;
+	    white-space: nowrap; /* 텍스트 한 줄 유지 */
+	    width: 60px;
+  	    height: 30px;
+  	    text-align: center;
         }
 
-        .todo-item {
-            flex: 1;
-        }
 
+
+.todo-text {
+  width: 633px;
+  flex-grow: 1;
+}
 
 #main_title{
     height: 100%;
@@ -30,22 +53,3 @@ body{
     font-size: 60px;
     margin: 50px auto;
   }
-
-        button {
-            background-color: black;
-            color: white;
-            border: none;
-            cursor: pointer;
-            padding: 5px 10px;
-            margin-left: 10px;
-        }
-
-#footer{
-background-color:#EEEEEE;
-color: #0073c2;
-width:100%;
-height:60px;
-line-height: 60px;
-text-align: center;
-margin: 50px 0px 15px 0px;
-}
