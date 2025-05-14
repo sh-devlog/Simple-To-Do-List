@@ -1,13 +1,13 @@
 #main_wrap{ 
 	width:100%;
 	margin:0 auto;
-	padding: 20px;
 	min-width: 480px;
 }
 
 body{
 	background-color:#FFFFFF;
 	padding: 15px;
+        font-size: 30px;
 	font-family:"맑은 고딕";
 }
 
@@ -29,7 +29,6 @@ body{
 	}
 
 
-
         button {
             background-color: black;
             color: white;
@@ -38,10 +37,11 @@ body{
             padding: 0;
             margin-left: 10px;
 	    white-space: nowrap; /* 텍스트 한 줄 유지 */
-	    width: 60px;
-  	    height: 35px;
-   	    min-width: 60px;
+	    width: 80px;
+  	    height: 40px;
+   	    min-width: 80px;
   	    text-align: center;
+	    font-size: 23px;
         }
 
 .todo-text {
@@ -51,6 +51,7 @@ body{
 
 #todo-input{	
   width: 350px;
+  font-size: 30px;
 }
 
 
@@ -59,7 +60,7 @@ body{
     width: 100%;
     text-align: center;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 80px;
     margin: 0px 0px 36px 0px;
   }
 
@@ -69,6 +70,20 @@ body{
     max-width: 900px;
   }
 
+body{
+  font-size: 16px;
+}
+
+#todo-input{
+  font-size: 16px;
+}
+
+ button {
+	    width: 60px;
+  	    height: 35px;
+   	    min-width: 60px;
+	    font-size: 16px;
+}
   #main_title {
     margin: 30px 0px 70px 0px;
     font-size: 60px;
