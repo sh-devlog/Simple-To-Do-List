@@ -83,3 +83,14 @@ document.getElementById('todo-input').addEventListener('keydown', function (even
 
 // 시작할 때 목록 불러오기
 window.onload = renderTodoList; // 페이지 로드되면 저장된 목록 자동 표시
+
+// Service Worker 등록
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(reg => {
+      console.log('Service Worker 등록 성공:', reg.scope);
+    })
+    .catch(err => {
+      console.log('Service Worker 등록 실패:', err);
+    });
+}
