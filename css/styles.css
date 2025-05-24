@@ -1,7 +1,7 @@
 #main_wrap{ 
 width:100%;
 margin:0 auto;
-max-width: 900px;
+max-width: 649px;
 }
 
 body{
@@ -76,10 +76,7 @@ text-align: center
 
 
 
-@media (min-width: 767px) {
-  #main_wrap {
-	min-width: 649px;
-  }
+@media (min-width: 769px) {
 
 body{
   font-size: 16px;
