@@ -68,14 +68,14 @@ text-align: center
     width: 100%;
     text-align: center;
     font-weight: lighter;
-    font-size: 85px;
+    font-size: 75px;
     margin: 0px 0px 44px 0px;
   }
 
 
 
 
-
+/* 데스크탑 */
 @media (min-width: 769px) {
 
 body{
