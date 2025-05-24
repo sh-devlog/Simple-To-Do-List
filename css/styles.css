@@ -80,6 +80,12 @@ text-align: center
 /* 데스크탑 */
 @media (min-width: 768px) {
 
+
+	body{
+	padding: 45px;
+	}
+	
+
 	#main_wrap{ 
 	min-width: 649px;
 	}
