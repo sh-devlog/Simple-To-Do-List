@@ -76,7 +76,7 @@ text-align: center
 
 
 /* 데스크탑 */
-@media (min-width: 769px) {
+@media (max-width: 769px) {
 
 body{
   font-size: 16px;
