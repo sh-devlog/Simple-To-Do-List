@@ -1,7 +1,7 @@
 #main_wrap{ 
 width:100%;
 margin:0 auto;
-min-width: 385px;
+min-width: 308px;
 }
 
 body{
@@ -57,7 +57,7 @@ white-space: normal;
 }
 
 #todo-input{	
-  width: 280px;
+  width: 240px;
   font-size: 16px;
 }
 
