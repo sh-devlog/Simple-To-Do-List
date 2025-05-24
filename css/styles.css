@@ -7,7 +7,7 @@ min-width: 649px;
 body{
 	background-color:#FFFFFF;
 	padding: 15px;
-        font-size: 50px;
+	font-size: 16px;
 	font-family: "맑은 고딕";
 }
 
@@ -41,7 +41,7 @@ body{
   	    height: 80px;
    	    min-width: 110px;
   	    text-align: center;
-	    font-size: 50px;
+	    font-size: 16px;
         }
 
 .todo-text {
