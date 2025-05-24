@@ -76,7 +76,7 @@ text-align: center
 
 
 
-@media (min-width: 479px) {
+@media (min-width: 767px) {
   #main_wrap {
 	min-width: 649px;
   }
