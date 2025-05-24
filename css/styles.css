@@ -1,7 +1,7 @@
 #main_wrap{ 
-	width:100%;
-	margin:0 auto;
-	min-width: 600px;
+width:100%;
+margin:0 auto;
+max-width: 900px;
 }
 
 body{
@@ -76,11 +76,9 @@ text-align: center
 
 
 
-
-/* 화면이 1024px 이상일 때 (데스크탑) */
-@media (min-width: 1024px) {
+@media (min-width: 479px) {
   #main_wrap {
-    max-width: 900px;
+	min-width: 649px;
   }
 
 body{
