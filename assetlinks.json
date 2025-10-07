@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.sh_devlog.twa",
+      "sha256_cert_fingerprints": [
+        "AB:26:F0:15:59:D7:89:0A:94:16:17:1C:64:9A:AF:1E:34:A2:F4:1C:FC:1E:E5:52:FE:84:0F:C3:A4:02:5B:B6"
+      ]
+    }
+  }
+]
