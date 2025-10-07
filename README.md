@@ -11,6 +11,7 @@
 
 
 <플레이스토어 앱 다운로드 및 테스트 참여 링크>
+
 웹 : https://play.google.com/apps/testing/io.github.sh_devlog.twa
 
 앱 : https://play.google.com/store/apps/details?id=io.github.sh_devlog.twa
