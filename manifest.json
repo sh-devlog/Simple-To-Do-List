@@ -2,7 +2,7 @@
   "name": "Simple To-do List",
   "short_name": "TO DO LIST",
   "start_url": "./index.html",
-  "display": "standalone",
+  "display": "Fullscreen sticky",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "lang": "ko",
