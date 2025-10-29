@@ -5,8 +5,19 @@ min-width: 308px;
 }
 
 body{
+	box-sizing: border-box;
+	padding:
+    env(safe-area-inset-top)
+    env(safe-area-inset-right)
+    env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
+  	padding:
+    constant(safe-area-inset-top)
+    constant(safe-area-inset-right)
+    constant(safe-area-inset-bottom)
+    constant(safe-area-inset-left); /* iOS 구형 대응 */
+	
 	background-color:#FFFFFF;
-	padding: 15px;
 	font-size: 16px;
 	font-family: "Noto Sans KR", sans-serif;
 }
@@ -111,6 +122,7 @@ text-align: center
     font-size: 60px;
   }
 }
+
 
 
 
